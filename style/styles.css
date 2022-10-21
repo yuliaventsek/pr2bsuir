@@ -1,29 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     width: 1271px;
-    height: 993px;
     left: 84px;
-
     top: 75px;
     margin: 0;
     padding: 0;
 }
 
 .header__words {
-    color: #408253;
+    color: #e5e5e5;
     font-size: 36px;
     font-weight: 700;
 }
 
+.header__words a{
+    color: #408253;
+    text-decoration: none;
+}
+
 .header__words span {
-    color: #e5e5e5;
+    color: #408253;
 }
 
 h1 {
     font-size: 64px;
+}
+
+.img1{
+    display: block;
+    margin: 0 auto;
 }
 
 h2 {
@@ -46,6 +54,8 @@ h2 {
     font-size: 36px;
     line-height: 49px;
     margin-top: 76px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 table {
@@ -58,10 +68,51 @@ table {
 
 td {
     border: 1px solid #408253;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
 }
 
 th {
     border: 1px solid #408253;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+
+}
+
+.tr3 td {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+    font-style: italic;
+    border: 1px solid #D9F0E0;
+}
+
+.tdsale {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+    font-style: italic;
+    width: 250px;
+    padding-left: 69px;
+
+}
+
+.tdcups td {
+    border: 1px solid #D9F0E0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.text2 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
 }
 
 .footer {
