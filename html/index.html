@@ -9,15 +9,15 @@
     <link rel="icon" href="../img/pencil-holder.png">
     <link rel="stylesheet" href="../style/styles.css">
     <title>store</title>
-    
+
 </head>
 
 <body>
     <header class="header">
-        <div class="header__words">
+        <nav class="header__words">
             <a href="#table1">Краски</a>| <a href="#table2">Кисточки</a>| <span>Карандаши</span>
-        </div>
-        <h1 align="center">Канцелярия для Вас и Ваших детей</h1>
+        </nav>
+        <h1>Канцелярия для Вас и Ваших детей</h1>
         <picture class="img1">
             <source srcset="../img/Rectangle155.png" media="(min-width: 1271px)">
             <source srcset="../img/Rectangle155(2).png" media="(min-width: 768px)">
@@ -27,12 +27,12 @@
     </header>
     <main>
         <section>
-            <h2 align="center">Детские принадлежности</h2>
-            <div class="text1" align="center">
+            <h2>Детские принадлежности</h2>
+            <div class="text1">
                 В нашем интернет-магазине вы сможете найти большой выбор детских принадлежностей. <br> Большой выбор
                 фломастеров, карандашей, тетрадей.
             </div>
-            <img align="middle" src="../img/Rectangle161.png" alt="img2" class="img2" usemap="#navigation">
+            <img src="../img/Rectangle161.png" alt="img2" class="img2" usemap="#navigation">
 
             <map name="navigation">
                 <area shape="rect" coords="605,250,760,470" href="#table1" alt="paints">
@@ -41,100 +41,98 @@
                 <area shape="rect" coords="0,50,560,695" href="https://arzamas.academy/mag/927-impressionism"
                     alt="book">
             </map>
-        </section>
 
-        <section>
-            <table id="table1" cellpadding="30">
-                <caption align="left" class="caption">
-                    <img src="../img/Vector1.svg" alt="paints" width="43" height="47">
-                    Набор акварелей
-                </caption>
-                <tr align="center">
-                    <th>10 шт.</th>
-                    <th>20 шт.</th>
-                    <th>30 шт.</th>
-                    <th>40 шт.</th>
-                    <th>50 шт.</th>
-                    <th>60 шт.</th>
-                </tr>
-                <tr align="center">
-                    <td>10 BYN</td>
-                    <td>20 BYN</td>
-                    <td>30 BYN</td>
-                    <td>40 BYN</td>
-                    <td>50 BYN</td>
-                    <td>60 BYN</td>
-                </tr>
-                <tr bgcolor="#408253" class="tr3">
-                    <td colspan="4">*Скидка 5% при покупке от 30 шт.</td>
-                    <td align="center">*6%</td>
-                    <td align="center">*7%</td>
-                </tr>
-            </table>
+        <table id="table1">
+            <caption class="caption">
+                <img src="../img/Vector1.svg" alt="paints" width="43" height="47">
+                Набор акварелей
+            </caption>
+            <tr>
+                <th>10 шт.</th>
+                <th>20 шт.</th>
+                <th>30 шт.</th>
+                <th>40 шт.</th>
+                <th>50 шт.</th>
+                <th>60 шт.</th>
+            </tr>
+            <tr>
+                <td>10 BYN</td>
+                <td>20 BYN</td>
+                <td>30 BYN</td>
+                <td>40 BYN</td>
+                <td>50 BYN</td>
+                <td>60 BYN</td>
+            </tr>
+            <tr class="tr3">
+                <td colspan="4">*Скидка 5% при покупке от 30 шт.</td>
+                <td>*6%</td>
+                <td>*7%</td>
+            </tr>
+        </table>
 
-            <table cellpadding="30" id="table2">
-                <caption align="left" class="caption">
-                    <iframe src="../img/Vector2.svg" width="50" height="55" frameborder="0"></iframe>
-                    Набор кисточек
-                </caption>
-                <tr align="center">
-                    <th>10 шт.</th>
-                    <th>20 шт.</th>
-                    <th>30 шт.</th>
-                    <th>40 шт.</th>
-                    <th>50 шт.</th>
-                    <th>60 шт.</th>
-                </tr>
-                <tr align="center">
-                    <td>5 BYN</td>
-                    <td>10 BYN</td>
-                    <td>15 BYN</td>
-                    <td>20 BYN</td>
-                    <td>25 BYN</td>
-                    <td>30 BYN</td>
-                </tr>
-            </table>
+        <table id="table2">
+            <caption class="caption">
+                <iframe src="../img/Vector2.svg" width="50" height="55" class="vector2"></iframe>
+                Набор кисточек
+            </caption>
+            <tr>
+                <th>10 шт.</th>
+                <th>20 шт.</th>
+                <th>30 шт.</th>
+                <th>40 шт.</th>
+                <th>50 шт.</th>
+                <th>60 шт.</th>
+            </tr>
+            <tr>
+                <td>5 BYN</td>
+                <td>10 BYN</td>
+                <td>15 BYN</td>
+                <td>20 BYN</td>
+                <td>25 BYN</td>
+                <td>30 BYN</td>
+            </tr>
+        </table>
 
-            <table cellpadding="30" id="table3">
-                <caption align="left" class="caption">
-                    <svg width="35" height="55" viewBox="0 0 35 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M0 0H34.9L30.8117 44.5621C30.5657 47.2443 29.4142 49.7312 27.5808 51.54C25.7474 53.3488 23.3629 54.3505 20.8901 54.3506H14.0098C11.5371 54.3505 9.15259 53.3488 7.31919 51.54C5.4858 49.7312 4.33432 47.2443 4.08828 44.5621L0 0ZM6.25707 13.5877L5.50921 5.43506H29.3908L28.6429 13.5877H6.25707ZM6.75564 19.0227L9.04906 44.0213C9.17208 45.3624 9.74782 46.6058 10.6645 47.5103C11.5812 48.4147 12.7735 48.9155 14.0098 48.9155H20.8901C22.1265 48.9155 23.3188 48.4147 24.2355 47.5103C25.1522 46.6058 25.7279 45.3624 25.8509 44.0213L28.1443 19.0227H6.75564Z"
-                            fill="black" />
-                    </svg>
-                    Стаканчики
-                </caption>
-                <tr align="center">
-                    <th>1 шт.</th>
-                    <th>2 шт.</th>
-                    <th>3 шт.</th>
-                    <th>4 шт.</th>
-                    <th>5 шт.</th>
-                    <th>6 шт.</th>
-                </tr>
-                <tr align="center">
-                    <td>3 BYN</td>
-                    <td>5 BYN</td>
-                    <td>7 BYN</td>
-                    <td>9 BYN</td>
-                    <td>11 BYN</td>
-                    <td>13 BYN</td>
-                </tr>
-                <tr align="center" bgcolor="#408253" class="tdcups">
-                    <td colspan="2" rowspan="2" class="tdsale" align="left">*Скидка для юридических лиц, использующих
-                        безналичный расчет</td>
-                    <td>100 шт.</td>
-                    <td>200 шт.</td>
-                    <td colspan="2">от 300 шт.</td>
-                </tr>
-                <tr align="center" bgcolor="#408253" class="tdcups">
-                    <td>5%</td>
-                    <td>6%</td>
-                    <td>7%</td>
-                    <td>**8%</td>
-                </tr>
-            </table>
-            <p class="text2">**только для постоянных клиентов</p>
+        <table id="table3">
+            <caption class="caption">
+                <svg width="35" height="55" viewBox="0 0 35 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0 0H34.9L30.8117 44.5621C30.5657 47.2443 29.4142 49.7312 27.5808 51.54C25.7474 53.3488 23.3629 54.3505 20.8901 54.3506H14.0098C11.5371 54.3505 9.15259 53.3488 7.31919 51.54C5.4858 49.7312 4.33432 47.2443 4.08828 44.5621L0 0ZM6.25707 13.5877L5.50921 5.43506H29.3908L28.6429 13.5877H6.25707ZM6.75564 19.0227L9.04906 44.0213C9.17208 45.3624 9.74782 46.6058 10.6645 47.5103C11.5812 48.4147 12.7735 48.9155 14.0098 48.9155H20.8901C22.1265 48.9155 23.3188 48.4147 24.2355 47.5103C25.1522 46.6058 25.7279 45.3624 25.8509 44.0213L28.1443 19.0227H6.75564Z"
+                        fill="black" />
+                </svg>
+                Стаканчики
+            </caption>
+            <tr>
+                <th>1 шт.</th>
+                <th>2 шт.</th>
+                <th>3 шт.</th>
+                <th>4 шт.</th>
+                <th>5 шт.</th>
+                <th>6 шт.</th>
+            </tr>
+            <tr>
+                <td>3 BYN</td>
+                <td>5 BYN</td>
+                <td>7 BYN</td>
+                <td>9 BYN</td>
+                <td>11 BYN</td>
+                <td>13 BYN</td>
+            </tr>
+            <tr class="tdcups">
+                <td colspan="2" rowspan="2" class="tdsale">*Скидка для юридических лиц, использующих
+                    безналичный расчет</td>
+                <td>100 шт.</td>
+                <td>200 шт.</td>
+                <td colspan="2">от 300 шт.</td>
+            </tr>
+            <tr class="tdcups">
+                <td>5%</td>
+                <td>6%</td>
+                <td>7%</td>
+                <td>**8%</td>
+            </tr>
+        </table>
+        <p class="text2">**только для постоянных клиентов</p>
         </section>
     </main>
 

@@ -27,6 +27,7 @@ body {
 
 h1 {
     font-size: 64px;
+    text-align: center;
 }
 
 .img1{
@@ -36,6 +37,7 @@ h1 {
 
 h2 {
     font-size: 48px;
+    text-align: center;
 }
 
 .text1 {
@@ -43,6 +45,7 @@ h2 {
     font-size: 24px;
     line-height: 33px;
     padding-bottom: 64px;
+    text-align: center;
 }
 
 .img2 {
@@ -56,6 +59,7 @@ h2 {
     margin-top: 76px;
     padding-right: 15px;
     padding-bottom: 15px;
+    text-align: left;
 }
 
 table {
@@ -63,7 +67,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     background-color: #D9F0E0;
-
+    
 }
 
 td {
@@ -71,6 +75,7 @@ td {
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
+    padding: 30px;
 }
 
 th {
@@ -78,7 +83,16 @@ th {
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
+    padding: 30px;
 
+}
+
+tr{
+    text-align: center;
+}
+
+.vector2{
+    border: 0px;
 }
 
 .tr3 td {
@@ -88,6 +102,8 @@ th {
     color: #ffffff;
     font-style: italic;
     border: 1px solid #D9F0E0;
+    text-align: center;
+    background-color: #408253;
 }
 
 .tdsale {
@@ -98,7 +114,7 @@ th {
     font-style: italic;
     width: 250px;
     padding-left: 69px;
-
+    text-align: left;
 }
 
 .tdcups td {
@@ -107,6 +123,7 @@ th {
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
+    background-color: #408253;
 }
 
 .text2 {
